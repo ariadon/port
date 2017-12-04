@@ -1,0 +1,182 @@
+@cloudy: #282828;
+@peachy: #FFE3F3;
+
+@font-face {
+    font-family: alice;
+    src: url(font/AccanthisADFStdNo2-Regular.woff);
+}
+
+@font-face {
+    font-family: light;
+    src: url(font/Muli-Light.woff);
+}
+
+@font-face {
+    font-family: muli_bold;
+    src: url(font/Muli-Bold.woff);
+}
+
+body
+{
+    background-color: @cloudy;
+    color: @peachy;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: muli_bold;
+    line-height: 0px;
+     letter-spacing: 2px;
+}
+
+h1.home {
+    font-size: 70px;
+    font-family: alice;
+    line-height: 0px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: light;
+     letter-spacing: 2px;
+}
+
+a {
+    color: @peachy;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a.enter {
+    background-color: @peachy;
+    color: @cloudy;
+    font-family: muli_bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+a.enter:hover {
+    background-color: @cloudy;
+    color: @peachy;
+    border: 2px solid @peachy;
+    font-family: muli_bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+a.cube {
+    background-color: @peachy;
+    color: @cloudy;
+    font-family: light;
+    font-size: 40px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+        margin: 100px;
+}
+
+a.right {
+    float: right;
+    padding-right: 160px;
+    padding-top: 5px;
+}
+
+a.left {
+    float: left;
+    padding-left: 160px;
+    padding-top: 5px;
+}
+
+a.name {
+    font-family: alice;
+    font-size: 25px;
+}
+
+hr {
+    color: @peachy;
+    width: 85%;
+}
+
+#home {
+    text-align: center;
+    padding-top: 350px;
+    padding-bottom: 350px;
+    letter-spacing: 2px;
+}
+
+#contact {
+    font-family: alice;
+    letter-spacing: 2px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+#about {
+    font-family: alice;
+    letter-spacing: 2px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+#portbutton {
+ padding-top: 250px;
+ text-align: center;
+}
+
+#about_rect {
+    width:350px;
+    height:500px;
+    background-color: @peachy;
+}
+
+form {
+padding-bottom: 20px;
+}
+
+header {
+    text-align: center;
+    font-family: light;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+table {
+ border-spacing: 5px;
+ width: 100%;
+}
+
+th {
+ text-align: left;
+     font-family: light;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+td {
+    text-align: left;
+    vertical-align: top;
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: light;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
